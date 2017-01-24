@@ -1,0 +1,1 @@
+OpenToAll CTF 2 : http://ctf2.opentoall.net
