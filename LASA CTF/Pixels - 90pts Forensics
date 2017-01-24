@@ -1,0 +1,2 @@
+use function "image combiner" in StegSolve
+and reverse result image to get a flag

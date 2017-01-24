@@ -1,0 +1,4 @@
+http://ctf2.opentoall.net/challenges#Opcode
+
+What is the x86 opcode for a relative jump with a 4-byte offset?
+Key : E9

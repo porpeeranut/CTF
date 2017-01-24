@@ -1,0 +1,24 @@
+(gdb) disass main
+	Dump of assembler code for function main:
+		.
+		.
+		0x0000000000400687 <+49>:	callq  0x400550 <scanf@plt>
+		0x000000000040068c <+54>:	mov    -0x8(%rbp),%eax
+		0x000000000040068f <+57>:	cmp    $0x30dda83,%eax
+		0x0000000000400694 <+62>:	jne    0x400711 <main+187>
+		.
+		.
+		0x0000000000400716 <+192>:	leaveq 
+	0x0000000000400717 <+193>:	retq   
+	End of assembler dump.
+
+(gdb) b *0x000000000040068f
+(gdb) r
+	What is the magic password?
+	51239555
+
+(gdb) i r
+	rax            0x30dda83	51239555
+(gdb) c
+	Continuing.
+	Correct! Your flag is: 51196695

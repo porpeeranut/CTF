@@ -1,0 +1,21 @@
+(gdb) disass main
+	Dump of assembler code for function main:
+		0x0000000000400656 <+0>:	push   %rbp
+		0x0000000000400657 <+1>:	mov    %rsp,%rbp
+		0x000000000040065a <+4>:	sub    $0x10,%rsp
+		0x000000000040065e <+8>:	movl   $0x0,-0x4(%rbp)
+		0x0000000000400665 <+15>:	movabs $0x2121217230783468,%rax
+		.
+		.
+		0x000000000040069a <+68>:	cmp    $0x5b74,%eax
+		0x000000000040069f <+73>:	jne    0x4006b7 <main+97>
+		0x00000000004006a1 <+75>:	lea    -0x10(%rbp),%rax
+		.
+		.
+		0x00000000004006bc <+102>:	leaveq 
+		0x00000000004006bd <+103>:	retq   
+	End of assembler dump.
+(gdb) b *0x000000000040069a
+(gdb) r
+(gdb) set $rip=0x00000000004006a1
+(gdb) c

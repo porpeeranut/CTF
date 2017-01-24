@@ -1,0 +1,7 @@
+https://backdoor.sdslabs.co/challenges/LOCATION-51
+
+view-source:http://hack.bckdr.in/LOCATION-51/index.html
+
+alert("Flag is "+atob("T0hIX1kwVV9DNE5fQkwwQ0tfSkFWQVNDMVBUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA"));
+
+Generate SHA-256 hash

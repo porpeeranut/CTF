@@ -1,0 +1,7 @@
+inpect file with binwalk then bruteforce zip password with fcrackzip
+binwalk -e moon.png
+cd _moon.png.extracted/
+fcrackzip 64885.zip -D -p "/dict.txt" -u
+
+then found password==moon
+and got a flag

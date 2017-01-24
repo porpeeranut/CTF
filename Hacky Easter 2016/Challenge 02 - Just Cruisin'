@@ -1,0 +1,9 @@
+decode with "International maritime signal flags"
+and not decode some char like below pattern
+e n _ j o
+y _ a f r
+_ e s h s
+e a b r _
+e e z _ e
+
+ref: https://en.wikipedia.org/wiki/International_maritime_signal_flags

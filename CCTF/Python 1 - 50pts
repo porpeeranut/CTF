@@ -1,0 +1,19 @@
+decode base64 from
+"NiA3CjExIGQgNiA0CjEgPSA0KDAsMWMpIAo1ID0gJzI9PScKMyA9IDMoIjE5JzFkIGMgMTggYSAxLiAxNyBlIDEwIDksIDE5JzE2IDEyIGUgMTQgNS4gZiBhIDE6ICIpCjFhIDE1KDMpID09IDE6Cgk4IDcuYig1KQoxMzoKCTggJzFiISc="
+
+>>>
+6 7
+11 d 6 4
+1 = 4(0,1c) 
+5 = '2=='
+3 = 3("19'1d c 18 a 1. 17 e 10 9, 19'16 12 e 14 5. f a 1: ")
+1a 15(3) == 1:
+	8 7.b(5)
+13:
+	8 '1b!'
+	
+then replace "1a 15(3) == 1:" with "1a 15(3) != 1:"
+encode to base64 and replace to script
+
+run script again
+flag: {n3v3r_use_EVAL}

@@ -1,0 +1,4 @@
+binwalk -e image.png
+chmod 777 60C.zip
+7z x 60C.zip
+cat flag.txt

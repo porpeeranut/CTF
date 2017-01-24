@@ -1,0 +1,6 @@
+send http post with
+thepassword_123=something
+pass=something
+
+because
+extract($_POST); will explode the $_POST array to internal variables

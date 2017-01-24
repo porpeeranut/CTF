@@ -1,0 +1,2 @@
+try to register then will got a cookie of md5 of username
+so we just change cookie to md5 of 'admin'

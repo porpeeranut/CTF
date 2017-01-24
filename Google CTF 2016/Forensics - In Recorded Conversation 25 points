@@ -1,0 +1,3 @@
+open with Wireshark
+right on some packet -> Follow -> TCP stream
+will got a flag in irc chat message

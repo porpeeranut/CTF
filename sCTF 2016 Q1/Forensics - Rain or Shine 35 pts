@@ -1,0 +1,7 @@
+binwalk --dd=".*" rain.wav
+
+will found a image file(58FD00) like a qrcode but has modified.
+we have to use image tool to modified and correct this image to real qrcode.
+
+notice a bottom border of first part(of four)
+will found a tiny evidence of missing image that we have to fill them.

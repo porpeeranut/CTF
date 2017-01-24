@@ -1,0 +1,24 @@
+https://backdoor.sdslabs.co/challenges/tim
+
+git clone https://github.com/backdoor-ctf/TIM.git
+
+git log --pretty=format:"%s" > log.txt
+>>> 47414c4620316168732074696d6d6f63206863616520666f2073726574636172616863206f7774207473726966206e696f4a
+
+convert to ascii
+>>> GALF 1ahs timmoc hcae fo sretcarahc owt tsrif nioJ
+
+reverse string
+>>> Join first two characters of each commit sha1 FLAG
+
+git log --pretty=format:"%h" > log.txt
+and replace ".....\n" with ""
+>>> d40000000000000000000567ddf1eee75f1ad58ee75fcb9412371ed98dedf21db04bf480fc8b860a9f75000000000000000000
+
+in sublime > edit > permute line > reverse
+and replace "\n" with ""
+>>> 000000000000000000759f0a868bfc80f44bb01df2ed8dd91e371294cb5fe78ed51a5fe7eef1dd6705000000000000000000d4
+
+
+ref
+https://git-scm.herokuapp.com/book/it/v2/Git-Basics-Viewing-the-Commit-History

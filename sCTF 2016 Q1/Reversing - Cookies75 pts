@@ -1,0 +1,4 @@
+decompile with http://www.javadecompilers.com/
+will found md5 hash of password
+then decrypt with http://www.md5online.org/
+Found : thisisaverystrongpassword

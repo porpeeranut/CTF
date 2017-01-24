@@ -1,0 +1,6 @@
+bug is in function "getbet()"
+that not check "bet" value if are negative.
+in c, long valiable is 32 bit
+so we can put 2147483648 (0b1000 0000 0000 0000 0000 0000 0000 0000)
+it will be a max negative.
+then got a flag

@@ -1,0 +1,16 @@
+use Burp Suite to intercept packet from android (add "All interfaces" in proxy options)
+we'll got url like this
+/hackyeaster/egg?code=ff0000&key=eggsited&hmac=f4e075524ba4470867e1891c1a8d1fc21df1f56a
+
+we have to change color to yellow and generate new hmac from this url
+http://www.freeformatter.com/hmac-generator.html
+
+and we'll got new url below
+http://hackyeaster.hacking-lab.com/hackyeaster/egg?code=ffff00&key=eggsited&hmac=1da02c68080863fa302c20c3312371f4e365a5f9
+
+result is a base64 of image
+we can open it from browser with
+
+<img src="data:image/png;base64,XXX" >
+
+which XXX is a base64 string

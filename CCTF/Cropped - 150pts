@@ -1,0 +1,6 @@
+open jpg with notepad will found the flag
+
+or use HxD (hex editor) delete hex since start until found "FF D8" (jpg signature) and save
+then jpeg is a picture of flag
+
+flag: {h1dd3n_from_vew}

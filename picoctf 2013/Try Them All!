@@ -1,0 +1,8 @@
+------------ hash.txt -----------
+9c756b5ecfb8cc90d942a9920d922773:7055
+---------------------------------
+
+hashcat-cli32.exe -m 10 hash.txt D:\wordlist\crackstation.net\realhuman_phill.txt -o cracked_hash.txt
+
+NOTE:
+-m 10 = md5($pass.$salt)

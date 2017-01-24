@@ -1,0 +1,5 @@
+https://backdoor.sdslabs.co/challenges/JUDGE
+
+sql injection
+use of '||' instead of 'or'
+username=admin'||'1&password=admin"

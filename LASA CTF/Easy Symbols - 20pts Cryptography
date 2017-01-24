@@ -1,0 +1,3 @@
+replace '&' with '-'
+and replace '!' with '.'
+then decode with morse code

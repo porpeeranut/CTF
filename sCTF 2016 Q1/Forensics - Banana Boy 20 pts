@@ -1,0 +1,8 @@
+use hex editor program such as HxD
+find jpg file signature "FF D8"
+and remove all hex before it will got a new jpg image
+
+or
+binwalk --dd="jpeg:jpg" carter.jpg
+or
+binwalk --dd=".*" carter.jpg

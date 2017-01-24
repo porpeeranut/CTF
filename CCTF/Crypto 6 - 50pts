@@ -1,0 +1,31 @@
+cipher: 
+|-|0\\|/ +|-|3 |-|311 |)!|) 4|\\|0|\\|`/|\\/|0|_|5 |#!|\\||) |_|5... ! +|-|0|_|6|-|+ 0|_||2 (0|)3 \\|/45 53(|_||23... \\|/3 |\\/||_|5+ 41+3|2 0|_||2 {|)161741_516|\\|47|_||235} +0 |-|!|)3 0|_||2 +|24|\\|54(+!0|\\|5.
+8|20\\|/|\\|!|\\|6 0|_|+.
+
+decode with leet
+|-|   = H
+0     = o
+\\|/  = w
++     = t
+3     = e
+1     = l
+|)    = d
+!     = i
+|\\|  = n
+`/    = y
+|\\/| = m
+|_|   = u
+5     = s
+|#    = f
+6     = g
+|2    = r
+(     = c
+8     = B
+
+plain text:
+how the hell did anonymous find us... i thought our code was secure... we must alter our {dlgl7al_slgna7ures} to hide our transactions.
+Browning out.
+
+flag: {dlgl7al_slgna7ures}
+
+ref: https://th.wikipedia.org/wiki/%E0%B8%A5%E0%B8%B5%E0%B8%97

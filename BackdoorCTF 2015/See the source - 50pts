@@ -1,0 +1,11 @@
+https://backdoor.sdslabs.co/challenges/SEESRC
+
+it's a php strcmp bug
+then send 
+password[]:xxx
+instead
+password:xxx
+
+ref
+http://danuxx.blogspot.com/2013/03/unauthorized-access-bypassing-php-strcmp.html
+http://stackoverflow.com/a/14674029

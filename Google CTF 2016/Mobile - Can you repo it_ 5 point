@@ -1,0 +1,4 @@
+decompile illintentions.apk with http://www.decompileandroid.com/
+in res\values\strings.xml will found git_user:l33tdev42
+then search user in github
+and will found a flag at the last commit

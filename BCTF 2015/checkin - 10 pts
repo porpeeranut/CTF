@@ -1,0 +1,8 @@
+googling "BCTF irc" and go to this link.
+http://irc.netsplit.de/channels/details.php?room=%23bctf&net=freenode
+
+then found this text
+"OPGS{jr1p0zr-g0-OPGS-2015_t00q-yhpx}"
+
+decrypt with ROT-13 (caesar) will got this flag
+BCTF{we1c0me-t0-BCTF-2015_g00d-luck}
