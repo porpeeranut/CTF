@@ -1,4 +1,4 @@
-# SECCON 2016 Online CTF
+﻿# SECCON 2016 Online CTF
 
 ##Description
 **Category:** Crypto **Points:** 300 **Solved:** 14
@@ -34,7 +34,7 @@ and tried to decode image by comparing hash value with library ['imagehash'](htt
 Unfortunately, there're too many error in result.
 I replayed the vdo with very fast speed and noticed that the camera was panning up and light had a bit changed when recording.
 
-![](./image/speed.gif)
+![](./image/5.gif)
 
 So I had to do preprocess for better result by croping image as below.
 
