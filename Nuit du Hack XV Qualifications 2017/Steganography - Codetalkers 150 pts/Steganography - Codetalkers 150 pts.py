@@ -60,19 +60,9 @@ def findBoundary(im):
 			break
 	return top, bottom, left, right
 
-def countColor(im, top, bottom, left, right):
-	countColor = 0
-	pix = im.load()
-	for h in range(top, bottom+1):
-		for w in range(left, right+1):
-			if pix[w, h] != 0:
-				countColor += 1
-	return countColor
-
 def findImageHash(filename):
 	im = Image.open(filename)
 	top, bottom, left, right = findBoundary(im)
-	color = countColor(im, top, bottom, left, right)
 	ihash = imagehash.average_hash(Image.open(filename).crop((left, top, right, bottom)))
 	return ihash
 
