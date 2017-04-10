@@ -1,6 +1,6 @@
 import gmpy2, libnum
 
-# low public exponent attack
+# RSA low public exponent attack
 
 def solution1():
 	root = gmpy2.cbrt(gs)
@@ -11,15 +11,11 @@ def solution2():
 	gm = gmpy2.mpz(n)
 	g3 = gmpy2.mpz(3)
 	mask = gmpy2.mpz(0x8080808080808080808080808080808080808080808080808080808080808080808080808080808080808080808080808080808080808080808080808000)
-	test = 0
 	while True:
-		if test == 0:
-			gs = gs
-		else:
-			gs += gm
 		root = int(gmpy2.root(gs, g3))
 		if (root & mask).bit_length() < 8:
 			break
+		gs += gm
 
 	print libnum.n2s(int(root))
 
