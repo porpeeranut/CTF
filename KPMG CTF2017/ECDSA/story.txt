@@ -1,0 +1,10 @@
+We hack Robo Corp company and get the signature of employee. The Robo Corp company use ECDSA with P-256 curve. We hack to the highest secret CEO's computer. And we know his name is "Kim Jong Unji". We want you to give us his signature for access to his computer.
+
+hint: P-256 formula is y^2 = x^3 - 3x + 2455155546008943817740293915197451784769108058161191238065 mod(115792089210356248762697446949407573530086143415290314195533631308867097853951).
+
+hint: The signature file format is 'name, r, s'.
+
+hint: The public key file format is '(x, y)'
+
+flag is 'Kim Jong Unji' signature in format KPMG{r:s} with decimal format. (******use weak nonce to sign******)
+example KPMG{115500642998182101182361439286881505436362236329187684286845086797306680491182:20371270513759167475979483750217764387344991126445174240306511558391237708405}
