@@ -3,7 +3,7 @@ import re
 
 '''
 https://docs.mbed.com/docs/ble-hid/en/latest/api/md_doc_HID.html
-find packet into "GET DESCRIPTOR Response DEVICE"
+find packet with info "GET DESCRIPTOR Response DEVICE"
 
 filter packet "URB_INTERRUPT in" in wireshark
 usb.device_address==3 && usb.capdata
