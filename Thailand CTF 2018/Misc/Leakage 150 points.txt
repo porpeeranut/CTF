@@ -1,0 +1,6 @@
+1.4 billion password breach compilation wordlist
+breachcompilation.txt.7z
+
+python query.py fobos_88@yahoo.com
+
+THCTF{16101988}
