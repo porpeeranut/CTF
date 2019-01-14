@@ -71,7 +71,7 @@ I checked png file with pngcheck and found that CRC for IDAT chunk is incorrect 
 
 ![](./image/12.png)
 
-So I looked at each folder and found only 1 error at group 'J' (img2096.jpg) that should be decodeed to 'B'.
+So I looked at each folder and found only 1 error at group 'J' (img2096.jpg) that should be decoded to 'B'.
 
 ![](./image/13.png)
 
